@@ -75,17 +75,17 @@ The source code for this project can be downloaded from the current page by clic
 	In the "main.c" file, replace the code with the following: 
 
     ```
-	#include <avr/io.h>
-	#include <avr/sleep.h>
-	#include "mcc_generated_files/mcc.h"
+    #include <avr/io.h>
+    #include <avr/sleep.h>
+    #include "mcc_generated_files/mcc.h"
 
-	void Timer_interrupt(void);
+    void Timer_interrupt(void);
 
-	uint16_t result;	
+    uint16_t result;	
 
-	int main(void)
-	{
-		SYSTEM_Initialize();
+    int main(void)
+    {
+        SYSTEM_Initialize();
         RTC_SetOVFIsrCallback(Timer_interrupt);
         while (1){
             sleep_cpu();
@@ -93,10 +93,10 @@ The source code for this project can be downloaded from the current page by clic
         }
     }
 
-	void Timer_interrupt()
-	{
+    void Timer_interrupt()
+    {
         ADC0_StartConversion(ADC_MUXPOS_TEMPSENSE_gc);
-	}
+    }
     ```
 
 
