@@ -7,7 +7,7 @@ This repository provides a MPLAB X IDE project with a MCC (MPLAB Code Configurat
 
 ## Related Documentation
 More details and code examples on the AVR128DA48 can be found at the following links:
-- [Low-Power Modes Using Curiosity Nano - AVR DA Training Manual]()
+- [Low-Power Modes Using Curiosity Nano - AVR DA Training Manual](http://www.microchip.com/DS40002243A.pdf)
 - [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA28)
 - [AVR128DA48 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=avr128da48)
 - [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano)
