@@ -1,7 +1,6 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300";"></a></p>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# AVR128DA48 Low power lab - Interrupt driven conversion
+# AVR DA family training - Low Power Using ADC and Interrupts
 
 This repository provides a MPLAB X IDE project with a MCC (MPLAB Code Configurator) generated code example for starting ADC conversion on the temperature channel with interrupts. 
 
