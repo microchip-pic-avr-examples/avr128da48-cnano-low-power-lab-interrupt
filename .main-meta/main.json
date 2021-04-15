@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-low-power-lab-interrupt",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "displayName": "AVR DA family training - Low Power Using ADC and Event System",
         "projectName": "avr128da48-cnano-low-power-lab-interrupt",
         "shortDescription": "This repository provides a MPLAB X IDE project with a MCC (MPLAB Code Configurator) generated code example for starting ADC conversion on the temperature channel with interrupts",
@@ -13,18 +13,18 @@
             "semverRange": ">=5.40.0"
         },
         "compiler": [
-			{
-				"name": "XC8",
-				"semverRange": "^2.20.0"
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.20.0"
+            }
+        ],
         "dfp": {
             "name": "AVR-Dx",
             "semverRange": "^1.1.40"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=3.95"
+            "semverRange": ">=3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -39,27 +39,27 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals",
-			   "ADC"
-            ]    			
+                "Peripherals",
+                "ADC"
+            ]
         ],
         "peripherals": [
             "ADC"
         ],
         "keywords": [
             "Event Generation",
-			"Low Power"
+            "Low Power"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
